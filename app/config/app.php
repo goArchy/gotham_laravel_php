@@ -65,7 +65,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => 'K3D7sLfKhKPlKATW6EdlGYrNPw9umk9w',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,6 +80,7 @@ return array(
 
 	'providers' => array(
 
+    'Cartalyst\Sentry\SentryServiceProvider',
 		'Illuminate\Foundation\Providers\ArtisanServiceProvider',
 		'Illuminate\Auth\AuthServiceProvider',
 		'Illuminate\Cache\CacheServiceProvider',
@@ -180,7 +181,7 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-
+    'Sentry'          => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 	),
 
 );
